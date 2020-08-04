@@ -8,3 +8,8 @@ Deployed by Firebase
 
 
 
+## TODO
+
+Make it a real website
+
+Connect to custom domain
