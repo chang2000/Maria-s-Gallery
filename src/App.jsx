@@ -1,27 +1,32 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
+
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/scss/image-gallery.scss"
 
-const images = [
-  {
-    original: 'https://picsum.photos/id/1018/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1018/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1015/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1015/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
-  },
-];
+const App = () => {
+  const [images, setImages] = useState([])
+  useEffect(() => {
+    composeSrc()
+  }, [])
 
-class App extends React.Component {
-  render() {
-    return <ImageGallery items={images} />;
+  const composeSrc = () => {
+    let tmpList = []
+    for (let i = 0; i < 41; i++) {
+      let tmpObj = {
+        original: 'https://raw.githubusercontent.com/chang2000/blog-image-host/master/site-drawing/0' + i +'.png',
+        thumbnail: 'https://raw.githubusercontent.com/chang2000/blog-image-host/master/site-thumbs/0' + i +'.jpg',
+      } 
+      tmpList.push(tmpObj)
+    }
+    setImages(tmpList)
   }
+  return (
+    <div>
+      <p>Maria's Gallery</p>
+      <ImageGallery items={images} />;
+    </div>
+  )
 }
 
 export default App;
