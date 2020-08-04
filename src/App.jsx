@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
-// import Info from './Info/Info.jsx'
+import Info from './Info/Info.jsx'
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/scss/image-gallery.scss"
 
@@ -22,7 +22,10 @@ const App = () => {
     setImages(tmpList)
   }
   return (
+    <div>
+      <Info />
       <ImageGallery items={images} />
+    </div>
   )
 }
 
