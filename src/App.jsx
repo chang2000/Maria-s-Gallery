@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div>
       <p>Maria's Gallery</p>
-      <ImageGallery items={images} />;
+      <ImageGallery items={images} />
     </div>
   )
 }
