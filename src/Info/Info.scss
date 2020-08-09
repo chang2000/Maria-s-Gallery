@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-color: black;
     display: flex;
     // justify-content: space-evenly;
@@ -17,7 +17,50 @@
 .header-img {
     width: 200px;
     height: 200px;
-    padding-bottom: 50px;
+    // padding-bottom: 50px;
     position: absolute;
     left: 70px;
 }
+
+
+.intro{
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.intro-img{
+    height: 220px;
+}
+
+.descs {
+    padding-left: 40px;
+}
+
+.name {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.contact {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;;
+}
+
+.descs :nth-last-child(3) {
+    padding-top: 50px;
+}
+.gallery-header {
+    display: flex;
+    align-items: center;
+    padding: 50px
+}
+.gallery-desc {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    padding-left: 10px;;
+}
+
+
