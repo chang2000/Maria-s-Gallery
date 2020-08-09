@@ -16,6 +16,8 @@ const App = () => {
       let tmpObj = {
         original: 'https://raw.githubusercontent.com/chang2000/blog-image-host/master/site-drawing/0' + i +'.png',
         thumbnail: 'https://raw.githubusercontent.com/chang2000/blog-image-host/master/site-thumbs/0' + i +'.jpg',
+        // original: './assets/site-drawing/0' + i +'.png',
+        // thumbnail: './assets/site-thumbs/0' + i +'.jpg',
       } 
       tmpList.push(tmpObj)
     }
