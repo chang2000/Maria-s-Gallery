@@ -17,9 +17,8 @@
 .header-img {
     width: 200px;
     height: 200px;
-    // padding-bottom: 50px;
     position: absolute;
-    left: 70px;
+    // left: 70px;
 }
 
 
@@ -32,6 +31,7 @@
 
 .intro-img{
     height: 220px;
+    width: 165px;
 }
 
 .descs {
@@ -41,6 +41,10 @@
 .name {
     font-family: Helvetica, sans-serif;
     font-size: 24px;
+}
+.title {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 .contact {
@@ -62,5 +66,54 @@
     font-size: 24px;
     padding-left: 10px;;
 }
+
+@media (max-width: 768px) {
+    .intro{
+        // display: inline;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descs{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .descs :nth-last-child(3) {
+        padding-top: 20px;
+    }
+    .title{
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    .intro-img{
+        height: calc(220px * 1.65);
+        width: calc(165px * 1.65);
+    }
+    .header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        display: flex;
+        // justify-content: space-evenly;
+        align-items: flex-end;
+        // align-items: center;
+    } 
+    .header-text {
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-size: 30px;
+        position: absolute;
+        padding-bottom: 25px;
+        right: 30px;
+    }
+    .header-img {
+        width: 100px;
+        height: 100px;
+        // padding-bottom: 50px;
+        position: absolute;
+        left: 20px;
+    }
+  }
 
 

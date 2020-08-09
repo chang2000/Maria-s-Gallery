@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react'
 import './Info.scss'
 
@@ -21,7 +22,7 @@ function Info()  {
             />
           <div className='descs'>
             <div className='name'>Maria Cai</div>
-            <div className='name'>Artist</div>
+            <div className='title'>Artist</div>
             <div className='contact'>
             ⬛	E-mail: maria55712786@gmail.com</div>
             <div className='contact'>
