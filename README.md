@@ -8,8 +8,12 @@ Deployed by Firebase
 
 
 
-## TODO
+## Roadmap & Problems
+1. Use Firebase to host the site directly
+	> Firebase is blocked in Mainland
+	> The domain is not that good
+2. Get a new domain and connect with Firebase hosting
 
-Make it a real website
-
-Connect to custom domain
+## **Proposed Next steps**
+1. Host on AWS or GCP, with optimized image URL(CDN enabled)
+2. Use Gatsby to do the SEO(!important)
