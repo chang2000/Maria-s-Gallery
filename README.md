@@ -1,8 +1,21 @@
-# Maria's Homepage
+<h1 align="center" style="font-family:georgia">Maria Cai's Homepage</h1>
+<h4 align="center">Made with ❤️ for such a Great Artist</h4>
+<hr/>
+<p align="center">
+  <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghkqbhv0vsj307f059glf.jpg" width="250"/>
+</p>
 
-![react](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghkqbhv0vsj307f059glf.jpg)
+<p align="center">
+  <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghkqc5z3a7j306g01sjr6.jpg" width="250"/>
+</p>
 
-![firebase](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghkqc5z3a7j306g01sjr6.jpg)
+
+<p align="center">
+<a href="https://github.com/chang2000/Maria-s-Gallery"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance"></a>
+<a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="GPL License"></a>
+<a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+</p>
+
 
 ## Tech Stack
 
