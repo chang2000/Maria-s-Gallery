@@ -1,14 +1,15 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react'
-import './Info.scss'
-
+import './Info.css'
+import headerImg from '../assets/header-logo.png'
+import avatarBW from '../assets/avatar-bw.jpeg'
 function Info()  {
   return (
     <div className='info'>
         <div className='header'>
             {/* <div className='header-img'> */}
               <img className='header-img'
-                   src={require('../assets/header-logo.png')} 
+                   src={headerImg} 
                    alt=""/>
             <div className='header-text'>
                 Maria Cai
@@ -17,7 +18,7 @@ function Info()  {
 
         <div className='intro'>
           <img className='intro-img' 
-               src={require('../assets/avatar-bw.jpeg')}
+               src={avatarBW}
                alt=""
             />
           <div className='descs'>

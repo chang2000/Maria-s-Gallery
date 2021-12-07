@@ -24,3 +24,6 @@ yarn-error.log*
 
 # Firebase related
 .firebase
+
+# lock
+yarn.lock
