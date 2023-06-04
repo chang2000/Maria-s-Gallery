@@ -1,46 +1,39 @@
-/* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react'
 import './Info.css'
-import headerImg from '../assets/header-logo.png'
-import avatarBW from '../assets/avatar-bw.jpeg'
-function Info()  {
-  return (
-    <div className='info'>
-        <div className='header'>
-            {/* <div className='header-img'> */}
-              <img className='header-img'
-                   src={headerImg} 
-                   alt=""/>
-            <div className='header-text'>
-                Maria Cai
+import avatarImg from '../assets/avatar-bw.jpeg'
+const Info = () => {
+    return (
+        <div className='info'>
+            <img className='info-avatar-img'
+                src={avatarImg}
+                alt='' />
+
+            <div className='info-text'>
+
+                <div className="info-text-upper">
+                    <div className='info-text-name'>
+                        Maria Cai
+                    </div>
+
+                    <div className='info-text-colorcode'>
+                        #0C0C0C
+                    </div>
+                </div>
+
+
+                <div className="info-text-bottom">
+                    <div className='info-text-title'>
+                        Advertisement / Drawing / Books / Alex's Love
+                    </div>
+
+                    <div className='info-text-short-intro'>
+                        Graduated from the <b>Chinese University of Hong Kong</b>.
+                        Worked at <b>Oligvy</b>.
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div className='intro'>
-          <img className='intro-img' 
-               src={avatarBW}
-               alt=""
-            />
-          <div className='descs'>
-            <div className='name'>Maria Cai</div>
-            <div className='title'>Artist</div>
-            <div className='contact'>
-            ⬛	E-mail: maria55712786@gmail.com</div>
-            <div className='contact'>
-             ⬛	 WeChat: c632407211</div>
-            <div className='contact'>
-            ⬛	WeChat Official Account: MariaCaiFX</div>
-          </div>
-        </div>
-        <div className='gallery-header'>
-          <img className='gallery-logo'
-               src={require('../assets/logo.png')} 
-               alt=''/>
-          <div className='gallery-desc'>Gallery</div>
-        </div>
-    </div>
-  )
+    )
 }
 
 export default Info
-

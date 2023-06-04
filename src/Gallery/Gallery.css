@@ -1,0 +1,29 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 3vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    /* width: 70%; */
+}
+
+.gallery-text {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallery-images-item {
+    height: 23%;
+    width: 23%;
+    border: 1px solid #555;
+    margin-top: 2vh;
+    filter: drop-shadow(30px 30px 4px #0c0c0c);
+}
