@@ -1,0 +1,31 @@
+.bookitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.bookitem-cover {
+    width: 55%;
+    /* height: 55%; */
+    margin: 1vh;
+}
+
+.book-name {
+    font-weight: bold;
+    font-size: large;
+    margin: 1vh;
+}
+
+.book-author {
+    color: #e87a90;
+    margin: 1vh;
+}
+
+.book-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e87a90;
+    margin: 0.5vh;
+}

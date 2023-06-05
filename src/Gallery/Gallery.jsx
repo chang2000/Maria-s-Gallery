@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Gallery.css'
-// import img1 from '../assets/site-drawing/014.png'
-// import img2 from '../assets/site-drawing/039.png'
-// import img3 from '../assets/site-drawing/020.png'
 
 const Gallery = () => {
     const imgNameArr = ['014', '039', '020']
     const imgs = imgNameArr.map(item => require('../assets/site-drawing/' + item + '.png'))
-    console.log(imgs)
     return (
         <div className='gallery'>
             <div className='gallery-text'>
@@ -25,8 +21,6 @@ const Gallery = () => {
                 <img className='gallery-images-item'
                     src={imgs[2]} alt="" />
             </div>
-
-
         </div>
     )
 }
