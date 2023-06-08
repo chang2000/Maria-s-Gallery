@@ -1,0 +1,27 @@
+.footer {
+    margin: 3vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+}
+
+.footer-headline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-text {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.footer-headline-img {
+    width: 17vh;
+}
+
+.footer-info-text {
+    font-size: large;
+}
