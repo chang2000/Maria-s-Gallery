@@ -6,7 +6,9 @@
 }
 
 .bookitem-cover {
-    width: 55%;
+    /* width: 55%; */
+    max-width: 55%;
+    max-height: 55%;
     /* height: 55%; */
     margin: 1vh;
 }
